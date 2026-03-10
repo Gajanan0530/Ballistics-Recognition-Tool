@@ -1,0 +1,15 @@
+Run as administrator 
+
+Permission of Activation  : 
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Activation of venv :
+venv\Scripts\activate
+
+Download all the libraries from requirements.txt file :
+pip install -r requirements.txt
+
+Run the App 
+streamlit cache clear
+
+streamlit run app/app.py
