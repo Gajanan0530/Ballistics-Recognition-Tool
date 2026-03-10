@@ -1,4 +1,4 @@
-\# Ballistics Recognition Tool
+# Ballistics Recognition Tool
 
 
 
@@ -10,11 +10,11 @@ An ML-powered forensic analysis system designed to automate the identification a
 
 
 
-\## Overview
+## Overview
 
 
 
-The \*\*Ballistics Recognition Tool (BRT)\*\* is a machine learning–driven system that assists forensic investigators in analyzing ballistic evidence. The system extracts unique microscopic features from bullet or cartridge images and classifies them using computer vision and machine learning techniques.
+The **Ballistics Recognition Tool (BRT)** is a machine learning–driven system that assists forensic investigators in analyzing ballistic evidence. The system extracts unique microscopic features from bullet or cartridge images and classifies them using computer vision and machine learning techniques.
 
 
 
@@ -26,7 +26,7 @@ The goal of this project is to demonstrate how modern ML techniques can support 
 
 
 
-\## Key Features
+## Key Features
 
 
 
@@ -52,7 +52,7 @@ The goal of this project is to demonstrate how modern ML techniques can support 
 
 
 
-\## System Architecture
+## System Architecture
 
 
 
@@ -60,37 +60,37 @@ The system follows a modular architecture consisting of:
 
 
 
-\### 1. Image Processing Layer
+### 1. Image Processing Layer
 
-Extracts \*\*SIFT keypoints and descriptors\*\* from ballistic images.
+Extracts **SIFT keypoints and descriptors** from ballistic images.
 
 
 
-\### 2. Feature Encoding Layer
+### 2. Feature Encoding Layer
 
-Uses \*\*Bag of Visual Words (BoVW)\*\* to convert local descriptors into fixed-length feature vectors.
+Uses **Bag of Visual Words (BoVW)** to convert local descriptors into fixed-length feature vectors.
 
 
 
 \### 3. Classification Layer
 
-Uses a \*\*Support Vector Machine (SVM)\*\* classifier to predict ballistic categories.
+Uses a **Support Vector Machine (SVM)** classifier to predict ballistic categories.
 
 
 
-\### 4. Backend API
+### 4. Backend API
 
 A \*\*Flask API\*\* handles model inference requests from the frontend.
 
 
 
-\### 5. Frontend Interface
+### 5. Frontend Interface
 
 A \*\*React application\*\* provides a user-friendly interface for uploading and analyzing ballistic images.
 
 
 
-\### 6. Experimental Interface
+### 6. Experimental Interface
 
 A \*\*Streamlit application\*\* allows rapid testing and visualization of the ML model.
 
@@ -100,11 +100,11 @@ A \*\*Streamlit application\*\* allows rapid testing and visualization of the ML
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\### Machine Learning \& Computer Vision
+### Machine Learning \& Computer Vision
 
 \- Python
 
@@ -120,25 +120,25 @@ A \*\*Streamlit application\*\* allows rapid testing and visualization of the ML
 
 
 
-\### Backend
+### Backend
 
 \- Flask API
 
 
 
-\### Frontend
+### Frontend
 
 \- React.js
 
 
 
-\### Visualization / Testing
+### Visualization / Testing
 
 \- Streamlit
 
 
 
-\### Version Control
+### Version Control
 
 \- Git
 
@@ -150,7 +150,7 @@ A \*\*Streamlit application\*\* allows rapid testing and visualization of the ML
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -208,7 +208,7 @@ Ballistics-Recognition-Tool
 
 
 
-\## Machine Learning Pipeline
+## Machine Learning Pipeline
 
 
 
@@ -234,11 +234,11 @@ Ballistics-Recognition-Tool
 
 
 
-\## Installation
+## Installation
 
 
 
-\### Clone the Repository
+### Clone the Repository
 
 
 
@@ -252,7 +252,7 @@ cd Ballistics-Recognition-Tool
 
 
 
-\### Install Dependencies
+### Install Dependencies
 
 
 
@@ -268,11 +268,11 @@ pip install -r requirements.txt
 
 
 
-\## Running the Project
+## Running the Project
 
 
 
-\### Run Flask API
+### Run Flask API
 
 
 
@@ -286,7 +286,7 @@ python app.py
 
 
 
-\### Run Streamlit App
+### Run Streamlit App
 
 
 
@@ -300,7 +300,7 @@ streamlit run app.py
 
 
 
-\### Run React Frontend
+### Run React Frontend
 
 
 
@@ -320,7 +320,7 @@ npm start
 
 
 
-\## Example Workflow
+## Example Workflow
 
 
 
@@ -340,7 +340,7 @@ npm start
 
 
 
-\## Applications
+## Applications
 
 
 
@@ -358,7 +358,7 @@ npm start
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
@@ -378,7 +378,7 @@ npm start
 
 
 
-\## Author
+## Author
 
 
 
@@ -394,7 +394,7 @@ Aspiring Machine Learning Engineer
 
 
 
-\## License
+## License
 
 
 
