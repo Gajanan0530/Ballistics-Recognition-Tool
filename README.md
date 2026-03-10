@@ -72,7 +72,7 @@ Uses **Bag of Visual Words (BoVW)** to convert local descriptors into fixed-leng
 
 
 
-\### 3. Classification Layer
+### 3. Classification Layer
 
 Uses a **Support Vector Machine (SVM)** classifier to predict ballistic categories.
 
