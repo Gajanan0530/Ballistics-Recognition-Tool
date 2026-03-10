@@ -382,9 +382,9 @@ npm start
 
 
 
-\*\*Phani\*\*  
+**Gajanana Phanindra**  
 
-B.Tech – Artificial Intelligence \& Machine Learning  
+B.Tech – CSE (Artificial Intelligence & Machine Learning)  
 
 Aspiring Machine Learning Engineer
 
@@ -398,5 +398,4 @@ Aspiring Machine Learning Engineer
 
 
 
-This project is open-source and available under the \*\*MIT License\*\*.
-
+This project is open-source and available under the **MIT License**.
